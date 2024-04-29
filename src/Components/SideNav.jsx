@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Burger from '../assets/Burger.svg'
 import BurgerLight1 from '../assets/BurgerLight1.svg'
 import BurgerLight2 from '../assets/BurgerLight2.svg'
-import Logo from '../assets/Logoi.svg'
+import Logo from '../assets/Logoii.png'
 import LogoLight1 from '../assets/LogoLight1.png'
 import LogoLight2 from '../assets/LogoLight2.png'
 import Vector from '../assets/Vector.svg'
@@ -121,7 +121,7 @@ const SideNav = (props) => {
     }
 
   return (
-    <div className={mode==="dark" ? ' bg-nav-black h-screen w-12 border-solid border-r border-zinc-700':' bg-white h-screen w-12 border-r '}>
+    <div className={mode==="dark" ? ' bg-nav-black h-screen w-12 border-solid border-r border-zinc-700 drop-shadow-sm':' bg-white h-screen w-12 border-r drop-shadow-sm'}>
       <div className='flex flex-col justify-between h-full'>
       <div className='flex flex-col justify-center'>
        { upperMenus?.map((item)=>(

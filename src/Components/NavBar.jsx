@@ -140,7 +140,7 @@ const NavBar = (props) => {
   return (
     <div>
      { !navMinimize ? 
-    (<div className={mode==='dark' ? 'drop-shadow-md h-screen w-72 bg-nav-black border-r border-zinc-700 shadow-xl':'drop-shadow-md h-screen w-72 bg-white border-r shadow-xl'}>
+    (<div className={mode==='dark' ? 'h-screen w-72 bg-nav-black border-r border-zinc-700 drop-shadow-sm':' h-screen w-72 bg-white border-r drop-shadow-sm'}>
       <div className='flex justify-between pt-2'>
       <div className={mode==='dark' ? 'text-white ml-2':'text-black ml-2'}>Colabot</div>
 
