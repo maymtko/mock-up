@@ -15,9 +15,10 @@ import React from 'react'
     }];
 
 const ThemePopup = (props) => {
-    const {changeTheme,setMode,mode}=props.passProps;
+    const {changeTheme,setMode,mode,setChangeTheme}=props.passProps;
     const changeMode=(id)=>{
         setMode(id);
+        setChangeTheme(false);
       }
   return (
     <div>

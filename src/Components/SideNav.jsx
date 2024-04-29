@@ -121,7 +121,7 @@ const SideNav = (props) => {
     }
 
   return (
-    <div className={mode==="dark" ? 'drop-shadow-md bg-nav-black h-screen w-12 border-solid border-r border-zinc-700':'drop-shadow-md bg-white h-screen w-12 border-r'}>
+    <div className={mode==="dark" ? ' bg-nav-black h-screen w-12 border-solid border-r border-zinc-700':' bg-white h-screen w-12 border-r '}>
       <div className='flex flex-col justify-between h-full'>
       <div className='flex flex-col justify-center'>
        { upperMenus?.map((item)=>(
