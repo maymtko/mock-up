@@ -31,12 +31,12 @@ const Content = (props) => {
             </div>
             </div>
             <div>
-            <div className={mode==="dark"? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-24 overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-24 overflow-hidden '}>
+            <div className={mode==="dark"? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-[4.5rem] overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-[4.5rem] overflow-hidden '}>
                 <div className='font-bold'>
                 Sagae President
                 </div>
                 <div>
-                Lorem ipsum dolor, elilementum semper nisi. Aenean vulputate eleifend tellus. 
+                Lorem ipsum dolor, asdfdslilementum semper nisi. Aenean vulputate eleifend tellus. 
                 </div>
             </div>
             </div>
@@ -58,7 +58,7 @@ const Content = (props) => {
             </div>
             </div>
             <div>
-            <div className={mode==="dark" ? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-24 overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-24 overflow-hidden'}>
+            <div className={mode==="dark"? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-[4.5rem] overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-[4.5rem] overflow-hidden '}>
                 <div className='font-bold'>
                 Speech to Text Bot
                 </div>
@@ -80,7 +80,7 @@ const Content = (props) => {
             </div>
             </div>
             <div>
-            <div className={mode==="dark" ? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-24 overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-24 overflow-hidden'}>
+            <div className={mode==="dark"? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-[4.5rem] overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-[4.5rem] overflow-hidden '}>
                 <div className='font-bold'>
                 Customer Supporter Bot
                 </div>
@@ -101,7 +101,7 @@ const Content = (props) => {
             </div>
             </div>
             <div>
-            <div className={mode==="dark" ? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-24 overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-24 overflow-hidden'}>
+            <div className={mode==="dark"? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-[4.5rem] overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-[4.5rem] overflow-hidden '}>
                 <div className='font-bold'>
                 New Project Bot
                 </div>
@@ -122,7 +122,7 @@ const Content = (props) => {
             </div>
             </div>
             <div>
-            <div className={mode==="dark" ? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-24 overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-24 overflow-hidden'}>
+            <div className={mode==="dark"? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-[4.5rem] overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-[4.5rem] overflow-hidden '}>
             <div className='font-bold'>
                 Customer Supporter Bot
                 </div>
@@ -151,7 +151,7 @@ const Content = (props) => {
             </div>
             </div>
             <div>
-            <div className={mode==="dark" ? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-24 overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-24 overflow-hidden'}>
+            <div className={mode==="dark"? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-[4.5rem] overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-[4.5rem] overflow-hidden '}>
                 <div className='font-bold'>
                 Programming Bot
                 </div>
@@ -173,7 +173,7 @@ const Content = (props) => {
             </div>
             </div>
             <div>
-            <div className={mode==="dark"? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-24 overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-24 overflow-hidden'}>
+            <div className={mode==="dark"? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-[4.5rem] overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-[4.5rem] overflow-hidden '}>
                 <div className='font-bold'>
                 New Project Bot
                 </div>
@@ -198,7 +198,7 @@ const Content = (props) => {
             </div>
             </div>
             <div>
-            <div className={mode==="dark" ? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-24 overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-24 overflow-hidden'}>
+            <div className={mode==="dark"? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-[4.5rem] overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-[4.5rem] overflow-hidden '}>
                 <div className='font-bold'>
                 Example Bot 1
                 </div>
@@ -220,7 +220,7 @@ const Content = (props) => {
             </div>
             </div>
             <div>
-            <div className={mode==="dark" ? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-24 overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-24 overflow-hidden'}>
+            <div className={mode==="dark"? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-[4.5rem] overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-[4.5rem] overflow-hidden '}>
                 <div className='font-bold'>
                 Example Bot 2
                 </div>
@@ -240,7 +240,7 @@ const Content = (props) => {
             </div>
             </div>
             <div>
-            <div className={mode==="dark" ? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-24 overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-24 overflow-hidden'}>
+            <div className={mode==="dark"? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-[4.5rem] overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-[4.5rem] overflow-hidden '}>
                 <div className='font-bold'>
                 Example Bot 3
                 </div>
@@ -261,7 +261,7 @@ const Content = (props) => {
             </div>
             </div>
             <div>
-            <div className={mode==="dark" ? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-24 overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-24 overflow-hidden'}>
+            <div className={mode==="dark"? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-[4.5rem] overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-[4.5rem] overflow-hidden '}>
             <div className='font-bold'>
                 Example Bot 4
                 </div>
