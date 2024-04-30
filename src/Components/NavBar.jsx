@@ -1,19 +1,26 @@
 import { useState } from 'react';
 import '../App.css'
 import DownArrow from '../assets/downarrow.svg'
-import DownArrowLight1 from '../assets/DownArrowLight1.svg'
+import DownArrowLight1 from '../assets/DownArrowPink.svg'
 import DownArrowLight2 from '../assets/DownArrowLight2.svg'
+import DownArrowLight3 from '../assets/DownArrowLight3.svg'
 import sagae from '../assets/sagae.svg'
 import Create from '../assets/Create.svg'
-import CreateLight1 from '../assets/CreateLight1.svg'
+import CreateLight1 from '../assets/CreatePink.svg'
 import CreateLight2 from '../assets/CreateLight2.svg'
 import Close from '../assets/Close4E.svg'
 import CloseLight1 from '../assets/CloseC9.svg'
+import CustomerSupport from '../assets/arlington-research-Kz8nHVg_tGI-unsplash.jpg'
+import ProgrammingBot from '../assets/programmingbot.jpeg'
+import SpeechToTextBot from '../assets/customer_support.avif'
+import CustomerSupport1 from '../assets/customer_support1.jpeg'
+import NewProject from '../assets/newproj.jpeg'
+import NewProject1 from '../assets/new_project.jpeg'
 
 const bots=[
   {
       name:'Colabot',
-      icon:sagae,
+      icon:CustomerSupport,
       style:'mt-2',
 
   },
@@ -25,49 +32,49 @@ const bots=[
   },
   {
       name:'Speech Text',
-      icon:sagae,
+      icon:SpeechToTextBot,
       style:'mt-4',
 
   },
   {
       name:'Example bot1',
-      icon:sagae,
+      icon:ProgrammingBot,
       style:'mt-4',
 
   },
   {
     name:'Example 2',
-    icon:sagae,
+    icon:NewProject,
     style:'mt-2',
 
 },
 {
     name:'Example 3',
-    icon:sagae,
+    icon:NewProject1,
     style:'mt-4',
 
 },
 {
     name:'Example 4',
-    icon:'/',
+    icon:NewProject,
     style:'mt-4',
 
 },
 {
     name:'Example 5',
-    icon:'/',
+    icon:NewProject1,
     style:'mt-4',
 
 },
 {
   name:'Example 6',
-  icon:'/',
+  icon:CustomerSupport1,
   style:'mt-4',
 
 },
 {
   name:'Example 7',
-  icon:'/',
+  icon:NewProject1,
   style:'mt-4',
 
 },
@@ -157,8 +164,8 @@ const NavBar = (props) => {
       <div className={mode==='dark' ? 'text-white ml-2 mt-10':'text-black ml-2 mt-10'}>Bots</div>
       <div className={expand ? 'h-72 overflow-y-auto':'h-40'}>{
         bots.map((item,index)=>(
-          <div key={item.name} className={mode==='dark' ? 'mt-2 flex items-center group/item':'mt-2 flex items-center group/item hover:bg-main-content-light'}> 
-          <div className={!expand && index>3 ? 'invisible m-2':'visible m-2'}><img className="w-6 h-6" src={item.icon}/></div>
+          <div key={item.name} className={mode==='dark' ? 'mt-2 flex items-center group/item hover:bg-main-content':'mt-2 flex items-center group/item hover:bg-main-content-light'}> 
+          <div className={!expand && index>3 ? 'invisible m-2':'visible m-2'}><img className="w-6 h-6 rounded-full" src={item.icon}/></div>
           <div style={{ color: mode==='dark' ? 'white' :'black' }} className={!expand && index>3 ? 'invisible  text-sm':'visible m-2  text-sm'}>{item.name}</div>
           <div className={!expand && index>3 ? 'invisible group/edit group-hover/item:invisible ml-auto mr-2':'invisible m-2 group/edit group-hover/item:visible ml-auto mr-2'} >
             <img className='w-5 h-5' src={mode==='light1' ? CreateLight1 : mode==='light2' ? CreateLight2: Create}/></div>
@@ -166,7 +173,7 @@ const NavBar = (props) => {
         ))
       }</div>
       <div className={'flex justify-end mr-2 mb-2 mt-4'}>
-        <img className="w-4 h-4" src={mode==="light1" ? DownArrowLight1 : mode==="light2" ? DownArrowLight2: DownArrow} onClick={()=>setExpand((prev=>!prev))}/>
+        <img className="w-4 h-4" src={mode==="light1" ? DownArrowLight1 : mode==="light2" ? DownArrowLight2: mode==="light3"? DownArrowLight3 : DownArrow} onClick={()=>setExpand((prev=>!prev))}/>
       </div>
       <div className={mode==="dark" ? 'w-full border-b border-zinc-700':'w-full border-b'}/>
   {/* Chat Histories */}
@@ -175,7 +182,7 @@ const NavBar = (props) => {
   <div className=''>
   <div className={mode==='dark'? 'text-white ml-2':'text-black ml-2'}>Chat Histories</div>
   </div>
-    <div className={mode==='light1'? 'text-blue-color  ml-2 mt-2 text-sm' :mode==='light2'? 'text-purple-color ml-2 mt-2 text-sm':'text-gold-color ml-2 mt-2 text-sm'}>Today</div>
+    <div className={mode==='light1'? 'text-pink-color  ml-2 mt-2 text-sm' :mode==='light2'? 'text-purple-color ml-2 mt-2 text-sm':'text-gold-color ml-2 mt-2 text-sm'}>Today</div>
     <div className={expand ?'h-40':'h-72 '}>
     <div className=''>{
         histories.map((item,index)=>(
@@ -183,21 +190,21 @@ const NavBar = (props) => {
           <div key={item.chatName} className={index!==0 ?'mt-2 flex items-cente': 'flex items-center'}>
             <div className='w-full flex flex-col'>
             <div className={mode==='dark' ? 'text-white text-sm pl-4 p-2':'text-black text-sm pl-4 p-2'}>{item.botName}</div>
-          <div className={mode==='dark' ?'text-white text-sm pl-4 p-2 hover:bg-main-content':'text-black text-sm pl-4 p-2 hover:bg-white'}>{item.chatName}</div>
+          <div className={mode==='light1' ?'text-black text-sm pl-4 p-2 hover:bg-pink-color hover:text-white': mode==='light2' ?'text-black text-sm pl-4 p-2 hover:bg-purple-color hover:text-white':mode==='light3' ?'text-black text-sm pl-4 p-2 hover:bg-gold-color hover:text-white':'text-white text-sm pl-4 p-2 hover:bg-main-content'}>{item.chatName}</div>
           </div>
           </div>
         ))
       }
     </div>
 
-    <div className={mode==='light1'? 'text-blue-color  ml-2 mt-2 text-sm' :mode==='light2'? 'text-purple-color ml-2 mt-2 text-sm':'text-gold-color ml-2 mt-2 text-sm'}>Yesterday</div>
+    <div className={mode==='light1'? 'text-pink-color  ml-2 mt-2 text-sm' :mode==='light2'? 'text-purple-color ml-2 mt-2 text-sm':'text-gold-color ml-2 mt-2 text-sm'}>Yesterday</div>
     <div className=''>{
         histories.map((item,index)=>(
           index>=2 && 
           <div key={item.chatName} className={index!==0 ?'mt-2 flex items-center': 'flex items-center'}>
             <div className='w-full flex flex-col'>
             <div className={mode==='dark'? 'text-white text-sm pl-4 p-2':'text-black text-sm pl-4 p-2'}>{item.botName}</div>
-          <div className={mode==='dark' ? 'text-white text-sm pl-4 p-2 hover:bg-main-content':'text-black text-sm pl-4 p-2 hover:bg-white'}>{item.chatName}</div>
+          <div className={mode==='light1' ?'text-black text-sm pl-4 p-2 hover:bg-pink-color hover:text-white': mode==='light2' ?'text-black text-sm pl-4 p-2 hover:bg-purple-color hover:text-white':mode==='light3' ?'text-black text-sm pl-4 p-2 hover:bg-gold-color hover:text-white':'text-white text-sm pl-4 p-2 hover:bg-main-content'}>{item.chatName}</div>
           </div>
           </div>
         ))

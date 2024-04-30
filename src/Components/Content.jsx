@@ -18,7 +18,7 @@ const Content = (props) => {
       </div>
 
         <div className='grid lg:grid-cols-[20%_20%_20%_20%] md:grid-cols-3  sm:grid-cols-2 xs:grid-cols-1 gap-2'>
-        <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border border-gold-color rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
+        <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
         <div className='flex flex-col'>
             <div className='flex justify-center'>
             <div className='bg-slate-500 rounded-full w-20 h-20 m-2 relative'>
@@ -45,7 +45,7 @@ const Content = (props) => {
         Company Bots
       </div>
       <div className='grid lg:grid-cols-[20%_20%_20%_20%] md:grid-cols-3  sm:grid-cols-2 xs:grid-cols-1 gap-2'>
-      <div  className={mode==="light1" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border border-gold-color rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
+      <div  className={mode==="light1" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
         <div className='flex flex-col'>
             <div className='flex justify-center'>
             <div className='bg-slate-500 rounded-full w-20 h-20 m-2 relative'>
@@ -67,7 +67,7 @@ const Content = (props) => {
       </div>
 
 
-      <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border border-gold-color rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
+      <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
         <div className='flex flex-col'>
             <div  className='flex justify-center'>
             <div className='bg-slate-500 w-full h-24 relative'>
@@ -88,7 +88,7 @@ const Content = (props) => {
         </div>
         
         {/* w-72 h-32 */}
-        <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border border-gold-color rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
+        <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
         <div className='flex flex-col'>
             <div className='flex justify-center'>
             <div className='bg-slate-500 w-full h-24 relative'>
@@ -109,7 +109,7 @@ const Content = (props) => {
         </div>
   
 
-      <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border border-gold-color rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
+      <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
         <div className='flex flex-col'>
             <div className='flex justify-center'>
             <div className='bg-slate-500 rounded-full w-20 h-20 m-2 relative'>
@@ -138,7 +138,7 @@ const Content = (props) => {
                 Development Group
                 </div>
       <div className='grid lg:grid-cols-[20%_20%_20%_20%] md:grid-cols-3  sm:grid-cols-2 xs:grid-cols-1 gap-2'>
-      <div  className={mode==="light1" ?  'bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border border-gold-color rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
+      <div  className={mode==="light1" ?  'bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
         <div className='flex flex-col'>
             <div className='flex justify-center'>
             <div className='bg-slate-500 w-full h-24 relative'>
@@ -160,7 +160,7 @@ const Content = (props) => {
       </div>
 
 
-      <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border border-gold-color rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
+      <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
         <div className='flex flex-col'>
             <div className='flex justify-center'>
             <div className='bg-slate-500 rounded-full w-20 h-20 m-2 relative'>

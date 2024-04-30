@@ -1,31 +1,34 @@
 import React, { useState } from 'react';
 import Burger from '../assets/Burger.svg'
-import BurgerLight1 from '../assets/BurgerLight1.svg'
+import BurgerLight1 from '../assets/BurgerPink.svg'
 import BurgerLight2 from '../assets/BurgerLight2.svg'
 import Logo from '../assets/Logoii.png'
-import LogoLight1 from '../assets/LogoLight1.png'
+import LogoLight1 from '../assets/LogoPink.png'
 import LogoLight2 from '../assets/LogoLight2.png'
 import Vector from '../assets/Vector.svg'
-import ChatLight1 from '../assets/ChatLight1.svg'
+import ChatLight1 from '../assets/ChatPink.svg'
 import ChatLight2 from '../assets/ChatLight2.svg'
 import Bot from '../assets/Bot.svg'
+import App from '../assets/AppGold.svg'
+import AppLight1 from '../assets/AppPink.svg'
+import AppLight2 from '../assets/AppPurple.svg'
 import Noti from '../assets/noti.svg'
-import NotiLight1 from '../assets/NotiLight1.svg'
+import NotiLight1 from '../assets/NotiPink.svg'
 import NotiLight2 from '../assets/NotiLight2.svg'
 import Reschedule from '../assets/Reschedule.svg'
-import RescheduleLight1 from '../assets/RescheduleLight1.svg'
+import RescheduleLight1 from '../assets/ReschedulePink.svg'
 import RescheduleLight2 from '../assets/RescheduleLight2.svg'
 import Create from '../assets/Create.svg'
 import User from '../assets/User.svg'
-import UserLight1 from '../assets/UserLight1.svg'
+import UserLight1 from '../assets/UserPink.svg'
 import UserLight2 from '../assets/UserLight2.svg'
-import BotLight1 from '../assets/BotLight1.svg'
+import BotLight1 from '../assets/BotPink.svg'
 import BotLight2 from '../assets/BotLight2.svg'
 import Theme from '../assets/theme.svg'
-import ThemeLight1 from '../assets/ThemeLight1.svg'
+import ThemeLight1 from '../assets/ThemePink.svg'
 import ThemeLight2 from '../assets/ThemeLight2.svg'
 import Bookmark from '../assets/Bookmark.svg'
-import BookmarkLight1 from '../assets/BookmarkLight1.svg'
+import BookmarkLight1 from '../assets/BookmarkPink.svg'
 import BookmarkLight2 from '../assets/BookmarkLight2.svg'
 
 
@@ -64,6 +67,11 @@ const lowerMenus=[
 
     },
     {
+        name:'App',
+        style:'mt-4',
+
+    },
+    {
         name:'Theme',
         style:'mt-4',
 
@@ -92,6 +100,9 @@ const iconPaths = {
     'SaveLight1':BookmarkLight1,
     'SaveLight2':BookmarkLight2,
     'Save':Bookmark,
+    'App':App,
+    'AppLight1':AppLight1,
+    'AppLight2':AppLight2,
     'Noti':Noti,
     'NotiLight1':NotiLight1,
     'NotiLight2':NotiLight2,
@@ -134,7 +145,7 @@ const SideNav = (props) => {
       <div className=''>
       { lowerMenus.map((item)=>(
             <div key={item.name} className={item.style}>
-                <img className="w-6 h-6 ml-3 fill-slate-600" src={changeIconColor(item.name)} onClick={()=>clickMenu(item.name)}/>
+                <img className={item.name==="App"? "w-6 h-5 ml-3":"w-6 h-6 ml-3"} src={changeIconColor(item.name)} onClick={()=>clickMenu(item.name)}/>
                 <div className={mode==="dark" ? 'text-xs text-white text-center':'text-xs text-black text-center'}>{item.name}</div>
             </div>
         ))}

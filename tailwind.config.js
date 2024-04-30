@@ -18,6 +18,7 @@ export default {
         'card-color-light':'#FFFFFF',
         'blue-color':'#0078D4',
         'purple-color':'#5F41B1',
+        'pink-color':'#FD9EC7',
       },
     },
   },
