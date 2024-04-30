@@ -7,6 +7,11 @@ import SpeechToTextBot from '../assets/customer_support.avif'
 import CustomerSupport1 from '../assets/customer_support1.jpeg'
 import NewProject from '../assets/newproj.jpeg'
 import NewProject1 from '../assets/new_project.jpeg'
+import ExampleBot from '../assets/ExampleBot.jpg'
+import ExampleBot1 from '../assets/ExampleBot1.jpeg'
+import ExampleBot2 from '../assets/ExampleBot2.jpeg'
+import ExampleBot3 from '../assets/ExampleBot3.jpeg'
+
 
 const Content = (props) => {
     const {changeTheme,mode}=props.passProps;
@@ -18,20 +23,20 @@ const Content = (props) => {
       </div>
 
         <div className='grid lg:grid-cols-[20%_20%_20%_20%] md:grid-cols-3  sm:grid-cols-2 xs:grid-cols-1 gap-2'>
-        <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
+        <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md h-44': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md h-44'}>
         <div className='flex flex-col'>
-            <div className='flex justify-center'>
-            <div className='bg-slate-500 rounded-full w-20 h-20 m-2 relative'>
+            <div className='flex justify-center h-20'>
+            <div className='bg-slate-500 rounded-full w-16 h-16 m-2 relative'>
                 <img src={sagae} className='absolute w-full h-full rounded-full object-cover'/>
             </div>
             </div>
             <div>
-            <div className={mode==="dark"? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-24 overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-24 overflow-hidden'}>
+            <div className={mode==="dark"? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-24 overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-24 overflow-hidden '}>
                 <div className='font-bold'>
                 Sagae President
                 </div>
                 <div>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+                Lorem ipsum dolor, elilementum semper nisi. Aenean vulputate eleifend tellus. 
                 </div>
             </div>
             </div>
@@ -45,10 +50,10 @@ const Content = (props) => {
         Company Bots
       </div>
       <div className='grid lg:grid-cols-[20%_20%_20%_20%] md:grid-cols-3  sm:grid-cols-2 xs:grid-cols-1 gap-2'>
-      <div  className={mode==="light1" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
+      <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md h-44': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md h-44'}>
         <div className='flex flex-col'>
             <div className='flex justify-center'>
-            <div className='bg-slate-500 rounded-full w-20 h-20 m-2 relative'>
+            <div className='bg-slate-500 rounded-full w-16 h-16 m-2 relative'>
                 <img src={SpeechToTextBot} className='absolute w-full h-full rounded-full object-cover'/>
             </div>
             </div>
@@ -67,10 +72,10 @@ const Content = (props) => {
       </div>
 
 
-      <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
+      <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md h-44': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md h-44'}>
         <div className='flex flex-col'>
             <div  className='flex justify-center'>
-            <div className='bg-slate-500 w-full h-24 relative'>
+            <div className='bg-slate-500 w-full h-20 relative'>
                 <img src={CustomerSupport} className='absolute w-full h-full inset-0 object-cover'/>
             </div>
             </div>
@@ -88,10 +93,10 @@ const Content = (props) => {
         </div>
         
         {/* w-72 h-32 */}
-        <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
+        <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md h-44': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md h-44'}>
         <div className='flex flex-col'>
             <div className='flex justify-center'>
-            <div className='bg-slate-500 w-full h-24 relative'>
+            <div className='bg-slate-500 w-full h-20 relative'>
                 <img src={NewProject} className='absolute w-full h-full inset-0 object-cover object-top'/>
             </div>
             </div>
@@ -109,10 +114,10 @@ const Content = (props) => {
         </div>
   
 
-      <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
+        <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md h-44': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md h-44'}>
         <div className='flex flex-col'>
             <div className='flex justify-center'>
-            <div className='bg-slate-500 rounded-full w-20 h-20 m-2 relative'>
+            <div className='bg-slate-500 rounded-full w-16 h-16 m-2 relative'>
                 <img src={CustomerSupport1} className='absolute w-full h-full rounded-full object-fill'/>
             </div>
             </div>
@@ -138,10 +143,10 @@ const Content = (props) => {
                 Development Group
                 </div>
       <div className='grid lg:grid-cols-[20%_20%_20%_20%] md:grid-cols-3  sm:grid-cols-2 xs:grid-cols-1 gap-2'>
-      <div  className={mode==="light1" ?  'bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
+      <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md h-44': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md h-44'}>
         <div className='flex flex-col'>
             <div className='flex justify-center'>
-            <div className='bg-slate-500 w-full h-24 relative'>
+            <div className='bg-slate-500 w-full h-20 relative'>
                 <img src={ProgrammingBot} className='absolute w-full h-full inset-0 object-cover'/>
             </div>
             </div>
@@ -160,10 +165,10 @@ const Content = (props) => {
       </div>
 
 
-      <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light2" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md'}>
+      <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md h-44': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md h-44'}>
         <div className='flex flex-col'>
             <div className='flex justify-center'>
-            <div className='bg-slate-500 rounded-full w-20 h-20 m-2 relative'>
+            <div className='bg-slate-500 rounded-full w-16 h-16 m-2 relative'>
                 <img src={NewProject1} className='absolute w-full h-full rounded-full object-cover'/>
             </div>
             </div>
@@ -180,6 +185,95 @@ const Content = (props) => {
           </div>
         </div>
        </div>
+
+       <div className={mode==="dark" ? 'text-white pt-4 font-bold':'text-black pt-4 font-bold'}>
+        Private Bots
+      </div>
+      <div className='grid lg:grid-cols-[20%_20%_20%_20%] md:grid-cols-3  sm:grid-cols-2 xs:grid-cols-1 gap-2'>
+      <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md h-44': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md h-44'}>
+        <div className='flex flex-col'>
+            <div className='flex justify-center'>
+            <div className='bg-slate-500 rounded-full w-16 h-16 m-2 relative'>
+                <img src={ExampleBot} className='absolute w-full h-full rounded-full object-cover'/>
+            </div>
+            </div>
+            <div>
+            <div className={mode==="dark" ? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-24 overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-24 overflow-hidden'}>
+                <div className='font-bold'>
+                Example Bot 1
+                </div>
+                <div>
+                   This is Example Bot 1.
+                </div>
+            </div>
+            </div>
+        </div>
+
+      </div>
+
+
+      <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md h-44': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md h-44'}>
+        <div className='flex flex-col'>
+            <div  className='flex justify-center'>
+            <div className='bg-slate-500 w-full h-20 relative'>
+                <img src={ExampleBot1} className='absolute w-full h-full inset-0 object-cover'/>
+            </div>
+            </div>
+            <div>
+            <div className={mode==="dark" ? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-24 overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-24 overflow-hidden'}>
+                <div className='font-bold'>
+                Example Bot 2
+                </div>
+                <div>
+                   This is Example Bot 2.
+                </div>
+            </div>
+            </div>  
+        </div>
+        </div>
+        
+        <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md h-44': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md h-44'}>
+        <div className='flex flex-col'>
+            <div className='flex justify-center'>
+            <div className='bg-slate-500 w-full h-20 relative'>
+                <img src={ExampleBot2} className='absolute w-full h-full inset-0 object-cover object-top'/>
+            </div>
+            </div>
+            <div>
+            <div className={mode==="dark" ? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-24 overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-24 overflow-hidden'}>
+                <div className='font-bold'>
+                Example Bot 3
+                </div>
+                <div>
+                   This is Example Bot 3. 
+                </div>
+            </div>
+         </div>
+        </div>
+        </div>
+  
+
+        <div  className={mode==="light1" ?  ' bg-white border  rounded-md overflow-hidden drop-shadow-md h-44': mode==="light2" ?  ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44': mode==="light3" ? ' bg-white border rounded-md overflow-hidden drop-shadow-md h-44':' bg-bot-card-color border border-gold-color rounded-md overflow-hidden drop-shadow-md h-44'}>
+        <div className='flex flex-col'>
+            <div className='flex justify-center'>
+            <div className='bg-slate-500 rounded-full w-16 h-16 m-2 relative'>
+                <img src={ExampleBot3} className='absolute w-full h-full rounded-full object-fill'/>
+            </div>
+            </div>
+            <div>
+            <div className={mode==="dark" ? 'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-white h-24 overflow-hidden':'text-left pl-2 pr-1 mb-2 mt-1 flex flex-col text-black h-24 overflow-hidden'}>
+            <div className='font-bold'>
+                Example Bot 4
+                </div>
+                <div>
+                   This is Example Bot 4.
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
     </div>
   )
 }
